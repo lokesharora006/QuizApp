@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFC5F3"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".SplashActivity">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:src="@drawable/puzzle1"
+    android:layout_marginStart="@dimen/_60sdp"
+    android:layout_marginEnd="@dimen/_60sdp"
+    android:layout_marginTop="@dimen/_23sdp"
+    android:layout_marginBottom="@dimen/_23sdp"
+    android:contentDescription="@string/SplashImage" />
+
+
+</LinearLayout>
